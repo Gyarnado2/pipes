@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
-
+#include <bits/stdc++.h>
 int main()
 {
 	int fd[2], nbytes;
