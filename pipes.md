@@ -31,7 +31,7 @@ int main()
 			*/
 			nbytes = read(fd[0],
 			readbuffer, sizeof(readbuffer));
-			printf("Received string: %s",
+			cout("Received string: %s",
 			readbuffer);
 			}
 			return(0);
